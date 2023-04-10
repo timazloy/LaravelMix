@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+
+    @media (max-width: 1280px) {
+        background: green;
+    }
+    @media (max-width: 1024px) {
+        background: red;
+    }
+}

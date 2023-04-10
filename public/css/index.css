@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
+}
+
+body {
+  color: blue;
+}
+
+@media (max-width: 1280px) {
+  body {
+    background: green;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background: red;
+  }
+}
